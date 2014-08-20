@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse <- function() inverse                 # returns inverse of the matrix from cache
         list(set = set, get = get,
              setinverse = setinverse,
-             getinverse = getinverse)                    # function returns this list of for variables
+             getinverse = getinverse)                    # function returns this list of 4 variables
 }
 
 	# this function, cacheSolve finds the inverse of the matrix created in the above function
